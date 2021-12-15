@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  db:
+    container_name: db-dowhile2021
+    image: postgres:alpine3.14
+    network_mode: host
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres

@@ -1,0 +1,4 @@
+-yarn add @nestjs/typeorm typeorm pg
+create ormconfig.json 
+change sourceRoot in nest-cli.json to "src/modules"
+-nest g res users (REST API)
